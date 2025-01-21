@@ -82,8 +82,8 @@
   --base--light: #e6ebf4;
   --base-tint--light: #ebf0f7;
   --base-shade--light: #bdc1c8;
-  --accent--light: #aa70e0;
-  --secondary--light: #7059e2;
+  --accent--light: #22232c;
+  --secondary--light: #22232c;
   --secondary-rgba--light: rgba(112,89,226,0.3);
   --stroke-controls--light: #a8b0c1;
   --stroke-controls-neutral--light: rgba(0,0,0,0.3);
@@ -91,8 +91,8 @@
   --t-bright--light: #22232c;
   --t-medium--light: #424550;
   --t-muted--light: #666a79;
-  --t-accent--light: #8f56cc;
-  --t-secondary--light: #5d4ec4;
+  --t-accent--light: #22232c;
+  --t-secondary--light: #22232c;
   --t-disabled--light: #717586;
   --t-placeholder--light: #969bb2;
   --base-opp--light: #111111;
@@ -834,6 +834,8 @@ h2 {
 @media only screen and (min-width: 768px) {
   .h2__text {
     margin-top: 4rem;
+    margin-bottom: 4rem;
+
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -2472,10 +2474,10 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 992px) {
   .inner {
-    padding: 11rem 0 4rem 0;
+    padding: 10rem 0 4rem 0;
   }
   .inner.inner-first {
-    padding: 11rem 0 4rem 0;
+    padding: 4rem 0 4rem 0;
   }
   .inner.inner-grid-top {
     padding: 8rem 0 4rem 0;
@@ -2483,13 +2485,13 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1400px) {
   .inner {
-    padding: 15rem 0 2rem 0;
+    padding: 8rem 0 2rem 0;
   }
   .inner.inner-grid-top {
     padding: 10rem 0 2rem 0;
   }
   .inner.inner-first {
-    padding: 15rem 0 2rem 0;
+    padding: 4rem 0 2rem 0;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -2611,13 +2613,13 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 768px) {
   .content__block.section-title {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
   .content__block.section-grid-title {
     margin-bottom: 1.9rem;
   }
   .content__block.block-large {
-    margin-bottom: 13rem;
+    margin-bottom: 4rem;
   }
   .content__block.block-grid-large {
     margin-bottom: 13rem;
@@ -2636,7 +2638,7 @@ form textarea:required:valid {
     margin-bottom: 0.4rem;
   }
   .content__block.block-large {
-    margin-bottom: 14.6rem;
+    margin-bottom: 4rem;
   }
   .content__block.block-grid-large {
     margin-bottom: 15rem;
@@ -3725,7 +3727,7 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1400px) {
   .cards__item {
-    height: 620px;
+    height: 100%;
   }
 }
 
